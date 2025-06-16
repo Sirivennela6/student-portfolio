@@ -35,9 +35,11 @@ const About = () => {
           <li>Completed 4th semester of B.Tech</li>
           <li>Pursuing CSE with Honours in Cyber Security</li>
         </ul>
+<p>
+  <strong>Programming Languages:</strong> C, Java, Python, HTML, CSS, JavaScript<br />
+  <strong>Hobbies:</strong> Reading, Painting
+</p>
 
-        <p><strong>Programming Languages:</strong> C, Java, Python, HTML, CSS, JavaScript</p>
-        <p><strong>Hobbies:</strong> Reading, Painting</p>
       </div>
     </div>
   );
