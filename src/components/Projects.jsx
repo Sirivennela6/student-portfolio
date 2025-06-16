@@ -31,7 +31,7 @@ const Projects = () => {
         <div className="bg-white/10 backdrop-blur-md p-4 rounded-2xl shadow hover:shadow-lg transition">
           <div className="w-full h-48 overflow-hidden rounded-lg mb-3">
             <img
-              src="/src/assets/portfolioimg.png"
+              src="/assets/portfolioimg.png"
               alt="Portfolio Website"
               className="w-full h-full object-cover"
             />

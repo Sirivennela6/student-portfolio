@@ -10,21 +10,21 @@ const About = () => {
         <img
           src={myImage}
           alt="Bala Siri Vennela"
-          className="w-48 h-48 md:w-60 md:h-60 rounded-full shadow-lg object-cover"
+          className="w-40 h-40 md:w-52 md:h-52 rounded-full shadow-lg object-cover"
         />
       </div>
 
       {/* Title */}
-      <h2 className="text-5xl font-bold mb-6 text-center font-[Poppins]">About Me</h2>
+      <h2 className="text-4xl font-bold mb-4 text-center font-[Poppins]">About Me</h2>
 
       {/* Intro Paragraph */}
-      <p className="max-w-4xl mx-auto text-xl text-center mb-8 leading-relaxed">
+      <p className="max-w-4xl mx-auto text-lg text-center mb-6 leading-relaxed">
         I'm a passionate 3rd year Computer Science student with interests in full-stack development,
         UI/UX design, and AI.
       </p>
 
       {/* Info Section */}
-      <div className="max-w-4xl mx-auto text-xl space-y-4 leading-relaxed">
+      <div className="max-w-4xl mx-auto text-lg space-y-4 leading-relaxed">
         <p><strong>Name:</strong> Bala Siri Vennela</p>
 
         <p><strong>Education:</strong></p>
