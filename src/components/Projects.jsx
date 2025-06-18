@@ -41,7 +41,7 @@ const Projects = () => {
           <h3 className="text-xl font-semibold">Portfolio Website</h3>
           <p className="text-sm mb-2">Tailwind CSS, EmailJS - This very site!</p>
           <a
-            href="https://github.com/yourusername/portfolio"
+            href="https://github.com/Sirivennela6/student-portfolio"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-400 hover:underline"
