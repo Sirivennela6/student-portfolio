@@ -1,5 +1,6 @@
 import React from 'react';
 import portfolioImage from '../assets/portfolioimg.png';
+import taskmanagerImage from '../assets/Task-manager.png';
 
 
 const Projects = () => {
@@ -11,7 +12,7 @@ const Projects = () => {
         <div className="bg-white/10 backdrop-blur-md p-4 rounded-2xl shadow hover:shadow-lg transition">
           <div className="w-full h-48 overflow-hidden rounded-lg mb-3">
             <img
-              src="\assets\Task-manager.png"
+              src= {taskmanagerImage}
               alt="Task Manager App"
               className="w-full h-full object-cover"
             />
@@ -28,7 +29,6 @@ const Projects = () => {
           </a>
         </div>
 
-        {/* Portfolio Website */}
         <div className="bg-white/10 backdrop-blur-md p-4 rounded-2xl shadow hover:shadow-lg transition">
           <div className="w-full h-48 overflow-hidden rounded-lg mb-3">
             <img
