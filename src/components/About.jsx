@@ -1,11 +1,10 @@
 import React from 'react';
-import myImage from '../assets/siri profile.jpg'; // Make sure the image is placed correctly
+import myImage from '../assets/siri profile.jpg'; 
 
 const About = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-purple-800 via-purple-900 to-black text-white p-10">
       
-      {/* Image */}
       <div className="flex justify-center mb-6">
         <img
           src={myImage}
@@ -14,16 +13,15 @@ const About = () => {
         />
       </div>
 
-      {/* Title */}
+     
       <h2 className="text-4xl font-bold mb-4 text-center font-[Poppins]">About Me</h2>
 
-      {/* Intro Paragraph */}
       <p className="max-w-4xl mx-auto text-lg text-center mb-6 leading-relaxed">
         I'm a passionate 3rd year Computer Science student with interests in full-stack development,
         UI/UX design, and AI.
       </p>
 
-      {/* Info Section */}
+     
       <div className="max-w-4xl mx-auto text-lg space-y-4 leading-relaxed">
         <p><strong>Name:</strong> Bala Siri Vennela</p>
 

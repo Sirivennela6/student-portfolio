@@ -8,11 +8,10 @@ const Projects = () => {
       <h2 className="text-4xl font-bold mb-6 text-center">Projects</h2>
 
       <div className="grid md:grid-cols-2 gap-6">
-        {/* Task Manager App */}
         <div className="bg-white/10 backdrop-blur-md p-4 rounded-2xl shadow hover:shadow-lg transition">
           <div className="w-full h-48 overflow-hidden rounded-lg mb-3">
             <img
-              src="https://via.placeholder.com/300x180?text=Task+Manager+App"
+              src="\assets\Task-manager.png"
               alt="Task Manager App"
               className="w-full h-full object-cover"
             />
